@@ -8,7 +8,7 @@ import React from "react";
 import { defineMessages, FormattedMessage } from "react-intl";
 
 import Wrapper from "./Wrapper";
-import messages from "./messages.json";
+// import messages from "./messages.json";
 
 defineMessages(messages);
 
@@ -17,8 +17,8 @@ function LeftMenuFooter() {
     <Wrapper>
       <div className="poweredBy">
         <FormattedMessage
-          id={messages.poweredBy.id}
-          defaultMessage={messages.poweredBy.defaultMessage}
+          id="glob"
+          defaultMessage="Glob :3"
           key="poweredBy"
         />
         <a
